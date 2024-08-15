@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Formulário Javascript </title>
+</head>
+<body>
+    <h1>Formulário Teste</h1>
+    <h2>Insira dois números nos campos abaixo.</h2>
+    <p>Atenção: O número no campo A deve ser menor que o número no campo B</p>
+    <form id="formulario_teste">
+        <input type="number" id="numero_menor" required placeholder="A"/>
+        <input type="number" id="numero_maior" required placeholder="B"/>
+        <button type="submit" id="botao_submeter">Submeter</button>
+        <p id="validacao">Dados Validos</p>
+        <p id="invalidacao">Dados Invalidos</p>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
